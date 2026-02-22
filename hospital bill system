@@ -1,0 +1,14 @@
+print("------hospital bill system-----")
+
+patient_name=input("enter patient name:"))
+doctor_fee=float(input("enter doctor fee:"))
+room_charge=float(input("enter room charge:"))
+medicine_charge=float(input("enter medicine charge:"))
+lab_charge=float(input("enter lab charge"))  
+
+output
+enter patient name:Ramya
+enter doctor fee:500
+enter room charge:2000
+enter medicine charge:1500
+enter lab charge:1000

@@ -1,0 +1,20 @@
+#Tuple of student names
+students=("Ramya","Vijay","Vishali","Gopika","Thejasri")
+
+#print the tuple
+print("students Tuple:",students)
+
+#print each name using loop
+print("\nStudent Names:")
+for name in students:
+  print(name)
+
+output:
+Students Tuple:('Ramya','Vijay',Vishali','Gopika','Thejasri')
+
+students Names:
+Ramya
+Vijay
+Vishali                
+Gopika
+Thejasri

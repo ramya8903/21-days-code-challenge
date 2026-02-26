@@ -1,0 +1,31 @@
+#movie details using string program
+
+#store movie details in a string
+movie = "Movie Name: Leo, Hero: Vijay, Time: 7 PM, Screen: 2"
+
+#print full details
+print("Movie Details:",movie)
+
+#find Movie name
+if "Leo" in movie:
+    print("Movie found in details")
+else:
+    print("Movie not found")
+
+#convert to uppercase
+print("Uppercase:", movie.upper())
+
+#convert to lowercase
+print("Lowercase:", movie.lower())
+
+#Find position of Hero
+position = movie.find("Hero")
+print("Position of 'Hero':",position)
+
+
+output:
+Movie Details: Movie Name: Leo, Hero: Vijay, Time: 7 PM, Screen: 2
+Movie found in details
+Uppercase: MOVIE NAME: LEO, HERO: VIJAY, TIME: 7 PM, SCREEN: 2
+Lowercase: movie name: leo, hero: vijay, time: 7 pm, screen: 2
+Position of 'Hero': 17

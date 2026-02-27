@@ -1,0 +1,16 @@
+#Dictionary of student marks
+students = {"Ramya": 95, "Vijay": 90, "Karthick": 93, "Priyanka": 89}
+
+#Find highest mark
+highest = max(students.values())
+
+#Find student with highest mark
+for name, mark in students.items():
+  if mark == highest:
+     print("students with highest mark:",name)
+     print("Highest mark:", mark)
+
+
+  output:
+  student with highest mark: Ramya
+  Highest mark: 95

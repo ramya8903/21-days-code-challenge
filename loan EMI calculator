@@ -1,0 +1,25 @@
+# Loan EMI Calculator
+
+# Input loan details
+principal = float(input("Enter loan amount:"))
+rate = float(input("Enter annual interest rate (%):"))
+time = float(input("Enter loan time (in years):"))
+
+# Convert annual rate to monthly rate
+monthly_rate = rate / (12*100)
+
+# Convert years to months
+months = time*12
+
+# EMI formula
+emi = (principal *monthly_rate *(1 + monthly_rate) ** months) / ((1 + monthly_rate) ** months -1)
+
+# Output
+print("Monthly EMI =",round(emi, 2))
+
+
+output:
+Enter loan amount: 100000
+Enter annual interest rate (%): 10
+Enter loan time (in years): 2
+Monthly EMI = 4614.49

@@ -1,0 +1,31 @@
+# Shopping Mall Billing System
+
+  print("=== Shopping Mall Billing System ===")
+
+  # Input
+  item_name = input("Enter item name: ")
+  price = float(input("Enter price:"))
+  quantity = int(input("Enter quantity:"))
+
+  # Calculation
+  total_amount = price * quantity
+
+  # Output
+  print("|n--- Shopping Bill ---")
+  print("Item name:", item_name)
+  print("price:", price)
+  print("Quantity:",quantity)
+  print(:Total Amount:", total_amount)
+
+
+  output:
+  === Shopping Mall Billing System ===
+  Enter item name: Bag
+  Enter item price: 800
+  Enter quantity: 3
+
+  --- Shopping Bill ---
+  Item Name: Bag
+  Price: 800
+  Quantity: 3
+  Total Amount: 2400

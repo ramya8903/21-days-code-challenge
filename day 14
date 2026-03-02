@@ -1,0 +1,26 @@
+# Bank Customer Management System 
+
+customers = {}
+
+acc = input("Enter Account No:")
+name = input("Enter Name:")
+bal = float(input("Enter Balance:"))
+
+customers[acc] = {"Name": name, "Balance": bal}
+
+print("\nCustomer Details:")
+print("Account No:", acc)
+print("Name:", customers[acc]["Name"])
+print("Balance:", customers[acc]["Balance"])
+
+
+
+output:
+Enter Account No: 101
+Enter Name: Ramya
+Enter Balance: 5000
+
+Customer Details:
+Account No: 101
+Name: Ramya
+Balance: 5000.0

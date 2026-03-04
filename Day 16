@@ -1,0 +1,32 @@
+# Laptop Product Details Program
+
+# Input laptop details
+brand = input("Enter Laptop Brand:")
+model = input("Enter Laptop Model:")
+price = float(input("Enter Laptop Price:")
+ram = input("Enter RAM Size:")
+storage = input("Enter Storage Size:")
+
+# Display details
+print("\n---Laptop Details---")
+print("Brand :",brand)
+print("Model :",model)
+print("Price :",price)
+print("RAM :",ram)
+print("Storage :",storage)
+
+
+output:
+Enter Laptop Brand: HP
+Enter Laptop Model: pavilion
+Enter Laptop Price: 65000
+Enter RAM Size: 8GB
+Enter Storage Size: 512GB SSD
+
+---Laptop Details---
+Brand: HP
+Model: Pavilion
+Price: $65000
+RAM: 8GB
+Storage: 512GB SSD
+

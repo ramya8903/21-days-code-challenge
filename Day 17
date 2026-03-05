@@ -1,0 +1,33 @@
+# Library Manage System
+
+books = ["Python", "Java", "C++", "Data science"]
+
+print("1. View Books")
+print("2. Issue Books")
+print("3. Return Books")
+
+choice = (inpt(input("Enter your choice:"))
+
+if choice == 1:
+    print("Available Books:", books)
+
+elif choice == 2:
+    book = input("Enter book name to issue:")
+if book in books:
+       books.remove(book)
+       print("book issued sucessfully")
+else:
+    print("Book not avaliable")
+elif choice == 3
+    book = input("Enter book name to return:")
+    books.append(book)
+    print("Book returned successfully")
+else:
+    print("Invalid choice")
+
+output:
+1. View Books
+2. Issue Books
+3. Return Books
+Enter your choice: 1
+avaliable Books:['Python', 'Java', 'C++', 'Data science']

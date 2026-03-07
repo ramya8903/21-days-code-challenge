@@ -1,0 +1,25 @@
+# Electricity Bill System
+
+name = int(input customer name:")
+units = int(input("Enter electricity units used:"))
+
+if units <= 100:
+   bill = units * 2
+elif units <= 200:
+   bill = units * 3
+else:
+   bill = units * 5
+
+print("\n---Electricity Bill---")
+print("Customer Name:", name)
+print("Units Used:", units)
+print("Total Bill: $",bill)
+
+output:
+Enter customer name: Ramya
+Enter electricity units used: 150
+
+---Electricity Bill---
+Customer Name: Ramya
+Units Used: 150
+Total Bill: $450

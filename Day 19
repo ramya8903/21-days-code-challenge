@@ -1,0 +1,30 @@
+# Student Record Program
+
+name = input("Enter student name:")
+roll = int(input("Enter roll number:"))
+mark1 = int(input("Enter mark 1:"))
+mark2 = int(input("Enter mark 2:"))
+mark3 = int(input("Enter mark 3:"))
+
+total = mark1 + mark2 + mark3
+average = total / 3
+
+print("\n---Student Record---")
+print("Name:", name)
+print("Roll Number:", roll)
+print("Total Marks:", total)
+print("Average:", average)
+
+
+output:
+Enter student name = Ramya
+Enter roll number = 79
+Enter mark 1: 80
+Enter mark 2: 75
+Enter mark 3: 90
+
+---Student Record---
+Name: Ramya
+Roll Number: 79
+Total Marks: 245
+Average: 81.67

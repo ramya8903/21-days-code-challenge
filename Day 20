@@ -1,0 +1,17 @@
+level = int(input("Enter water level percentage:"))
+
+if level >= 80:
+   print("Tank Full")
+elif level >= 40:
+   print("Tank Medium")
+else:
+   print("Tank Low")
+
+
+output:
+Enter water level percentage: 85
+Tank Full
+Enter water level percentage: 50
+Tank Medium
+Enter water level percentage: 20
+Tank Low

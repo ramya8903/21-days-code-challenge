@@ -1,0 +1,15 @@
+# price per litre
+price = 100
+litres = float(input("Enter litres of petrol:"))
+
+bill = litres * price
+
+print("Petrol price per litre:",price)
+print("Total litres:",litres)
+print("Total bill amount:",bill)
+
+output:
+Enter litres of petrol: 5
+petrol price per litre: 100
+Total litres: 5
+Total bill amount: 500

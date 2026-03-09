@@ -1,0 +1,23 @@
+print("Mobile Operating Systems")
+print("1.Android")
+print("2.iOS")
+print("3.Windows")
+
+choice = int(input("Enter your choice:"))
+
+if choice == 1:
+   print("you selected Android")
+elif choice == 2:
+   print("you selected iOS")
+elif choice == 3:
+   print("you selected Windows")
+else:
+   print("Invalid choice")
+
+output:
+Mobile Operating Systems
+1.Android
+2.iOS
+3.Windows
+Enter your choice: 1
+you selected Android

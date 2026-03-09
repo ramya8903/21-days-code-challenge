@@ -1,0 +1,20 @@
+name = input("Enter employee name:")
+salary = float(input("Enter basic salary:"))
+bonus = float(input("Enter bonus amount:"))
+
+total_salary = salary + bonus
+
+print("Employee Name:",name)
+print("Basic Salary:",salary)
+print("Bonus:",bonus)
+print("Total Salary:",total_salary)
+
+output:
+Enter employee name: Ramya
+Enter basic salary: 20000
+Enter bonus amount: 3000
+
+Employee Name: Ramya
+Basic Salary: 20000
+Bonus: 3000
+Total Salary: 23000

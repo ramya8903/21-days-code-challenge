@@ -1,0 +1,43 @@
+print("Welcome to Mobile Recharge System")
+
+number = input("Enter Mobile Number:")
+
+print("Recharge Plans")
+print("1.$199 - 28 Days")
+print("2.$399 - 56 Days")
+print("3.$599 - 84 Days")
+
+choice = int(input("Select Plan(1-3):"))
+
+if choice == 1:
+   plan = 199
+   validity = "28 Days"
+elif choice == 2:
+   plan = 399
+   validity = "56 Days"
+elif choice == 3:
+   plan = 599
+   validity = "84 Days"
+else:
+    print("Invalid plan selected")
+
+print("Mobile Number:",number)
+print("Recharge Amount: $",plan)
+print("Validity:",validity)
+print("Recharge Successfully!")
+
+output:
+Welcome to Mobile Recharge System
+Enter Mobile Number: 8925223618
+
+Recharge plans
+1.$199 - 28 Days
+2.$399 - 56 Days
+3.$599 - 84 Days
+
+Select Plans: 2
+
+Mobile Number: 8925223618
+Recharge Amount: $399
+Validity: 56 Days
+Recharge Successfully!

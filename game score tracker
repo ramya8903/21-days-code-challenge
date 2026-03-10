@@ -1,0 +1,31 @@
+print("Game Score Tracker")
+
+player1 = input("ENter Player  1 Name:")
+player 2 = input("Enter Player 2 Name:")
+
+score1 = int(input("Enter score of" + player1 +":"))
+score2 = int(input("Enter score of" +player2 +":"))
+
+print("----Game Result----")
+print(player1,"score:",score1)
+print(player2,"score:",score2)
+
+if score1 > score2:
+   print(player1,"is the Winner!")
+elif score2 >score1:
+   print(player2,"is the Winner!")
+else:
+   print("The game is a Draw!")
+
+output:
+Game Score Tracker
+Enter Player 1 Name: Ramya
+Enter Player 2 Name: Vijay
+
+Enter score of Ramya: 80
+Enter score of Vijay: 70
+
+----Game Result----
+Ramya score: 80
+Vijay score: 70
+Ramya is the Winner!

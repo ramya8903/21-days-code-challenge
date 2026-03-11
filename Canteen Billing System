@@ -1,0 +1,45 @@
+print("Canteen Billing System")
+
+print("Menu")
+print("1.Idli - $20")
+print("2.Dosa - $40")
+print("3.Pongal - $30")
+print("4.Tea - $10")
+
+choice = int(input("Enter item number:"))
+qty = int(input("Enter uantity:"))
+
+if choice == 1:
+   item = "Idli"
+   price = 20
+elif choice == 2:
+   item = "Dosa"
+   price = 40
+elif choice == 3:
+   item = "Pongal"
+   price = 30
+else:
+   print("Invalid choice")
+
+total = price * qty
+
+print("\n---Bill---")
+print("Item:",item)
+print("Quantity:",qty)
+print("Total Amount: $",total)
+
+output:
+Canteen Billing System
+Menu
+1.Idli - $20
+2.Dosa - $40
+3.Pongal - $30
+4.Tea - $10
+
+Enter item number: 2
+Enter quantity: 3
+
+---Bill---
+Item: Dosa
+Quantity: 3
+Total Amount: $120

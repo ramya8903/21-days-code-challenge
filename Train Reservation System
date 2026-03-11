@@ -1,0 +1,37 @@
+print("Train Reservation System")
+
+name = input("Enter passenger name:")
+age = int(input("Enter age:"))
+train = input("Enter train name:")
+seat = input("Enter seat type (Sleeper/AC):")
+tickets = int(input("Number of tickets:"))
+
+price = 500
+total = tickets * price
+
+print("\n---Ticket Details---")
+print("Passenger Name:",name)
+print("Age:",age)
+print("Train Name:",train)
+print("Seat Type:",seat)
+print("Tickets:",tickets)
+print("Total Amount:",total)
+print("Reservation Successful!")
+
+
+output:
+Train Reservation System
+Enter passenger name: Ramya
+Enter age: 18
+Enter train name: Express
+Enter seat type (Sleeper/AC): Sleeper
+Number of tickets: 2
+
+---Ticket Details---
+Passenger Name: Ramya
+Age: 18
+Train Name: Express
+Seat Type: Sleeper
+Tickets: 2
+Total Amount: 100
+Reservation Successful!

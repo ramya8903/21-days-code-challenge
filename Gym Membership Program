@@ -1,0 +1,30 @@
+#Gym Membership System
+
+name = input("Enter Member Name:")
+age = int(input("Enter Age:"))
+plan = input("Enter Membership Plan (Monthly / Yearly):")
+
+if plan.lower() ==  "monthly":
+   fee = 1000
+elif plan.lower() == "yearly":
+   fee = 10000
+else:
+   fee = 0
+
+print("\n---Gym Membership Details---")
+print("Member Name:",name)
+print("Age:",age)
+print("Plan:",plan)
+print("Membership Fee:",fee)
+
+
+output:
+Enter Member Name: Ramya
+Enter Age: 18
+Enter Membership Plan (Monthly / Yearly):Monthly
+
+---Gym Membership Details---
+Member Name: Ramya
+Age: 18
+Plan: Monthly
+Membership: 1000

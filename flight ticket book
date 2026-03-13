@@ -1,0 +1,32 @@
+print("Flight Ticket Booking System")
+
+name = input("Enter passenger name:")
+age = int(input("Enter age:")
+destination = input("Enter destination:")
+tickets = int(input("Enter number of tickets:")
+
+price = 5000
+total = price * tickets
+
+print("\n----Tickets Details----")
+print("Passenger Name:",name)
+print("Age:",age)
+print("Destination:",destination)
+print("Number of Tickets:",tickets)
+print("Tickets Price:",price)
+print("Total Amount:",total)
+
+output:
+Flight Ticket Booking System
+Enter passenger name: Ramya
+Enter age: 18
+Enter destination: Delhi
+Enter number of tickets: 2
+
+----Ticket Details----
+Passenger Name: Ramya
+Age: 18
+Destination: Delhi
+Number of Tickets: 2
+Ticket Price: 5000
+Total amount: 10000

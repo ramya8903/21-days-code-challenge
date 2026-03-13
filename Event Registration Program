@@ -1,0 +1,28 @@
+print("Event Registration System")
+
+name = input("Enter participant name:")
+event = input("Enter event name:")
+college = input("Enter college name:")
+fee = int(input("Enter registration fee:"))
+
+print("\n----Registration Details----")
+print("Participant Name:",name)
+print("Event Name:",event)
+print("College Name:",college)
+print("Registration Fee:",fee)
+print("Registration Successful!")
+
+
+output:
+Event Registration System
+Enter participant name: Ramya
+Enter event name: Coding Competition
+Enter college name: Sathyabama University
+Enter registration fee: 500
+
+----Registration Details----
+Participant Name: Ramya
+Event Name: Coding Competition
+College Name: Sathyabama University
+Registration Fee: 500
+Registration Successful!

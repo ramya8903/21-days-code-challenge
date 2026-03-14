@@ -1,0 +1,27 @@
+donors = {}
+
+print("Blood Donor Registration System")
+
+name = input("Enter donor name:")
+blood_group = input("Enter blood group:")
+city = input("Enter city:")
+
+donors[name] = {"Blood Group":blood_group,"City":city}
+
+print("\nDonor Registered Successfully!")
+print("Donor Details:")
+print("Name:",name)
+print("Blood Group:",blood group)
+print("City:",city)
+
+output:
+Blood Donor Registration System
+Enter donor name: Ramya
+Enter blood group: A+
+Enter city: Chennai
+
+Donor Registered Successfully!
+Donor Details:
+Name: Ramya
+Blood Group: A+
+City: Chennai

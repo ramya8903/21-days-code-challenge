@@ -1,0 +1,16 @@
+curiers = {"C101":"In Transit","C102":"Delivered",C103":"Out for Delivery","C104":"Pending"}
+
+print("Courier Tracking System")
+
+cid = input("Enter Courier ID:")
+
+if cid in couriers:
+   print("Courier Status:",courier[cid])
+else:
+   print("Courier ID not found")
+
+
+output:
+Courier Tracking System
+Enter Courier ID: C103
+Courier Status: Out for Delivery

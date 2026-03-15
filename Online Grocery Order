@@ -1,0 +1,26 @@
+#Online Grocery Order System
+
+print("----Online Grocery Store----")
+
+item = input("Enter Item Name:")
+price = float(input("Enter Price of Item:"))
+qty = int(input("Enter Quantity:"))
+
+total = price * qty
+
+print("\n-----Order Bill-----")
+print("Item Name:",item)
+print("Price:",price)
+print("Quantity:",qty)
+print("Total Amount:",total)
+
+----Online Grocery Store----
+Enter Item Name: Rice
+Enter Price of Item: 60
+Enter Quantity: 3
+
+----Order Bill----
+Item Name: Rice
+Price: 60
+Quantity: 3
+Total Amount: 180

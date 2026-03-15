@@ -1,0 +1,30 @@
+# Doctor Appointment System
+
+print("----Doctor Appointment System----")
+
+name = input("Enter Patient Name:")
+age = int(input("Enter Age:"))
+doctor = input("Enter Doctor Name:")
+date = input("Enter  Appointment Date:")
+
+print("\n----Appointment Details----")
+print("Patient Name:",name)
+print("Age:",age)
+print("Doctor Name:",doctor)
+print("Appointment Date:",date)
+
+print("Appointment Booked Successfully!")
+
+output:
+----Doctor Appointment System----
+Enter Patient Name: Ramya
+Enter Age: 18
+Enter Doctor Name: Dr.Kumar
+Enter Appointment Date: 20-03-2026
+
+----Appointment Details----
+Patient Name: Ramya
+Age: 18
+Doctor Name: Dr.Kumar
+Appointment Date:20-03-2026
+Appointment Booked Successfully!

@@ -1,0 +1,29 @@
+# Library Fine Calculation Program
+
+name = input("Enter Student Name:")
+Book = input("Enter Book Name:")
+Date = int(input("Enter number of late days:")
+
+# Fine Calculation
+if Days <= 5:
+   Fine = days * 2
+elif Days <= 10:
+   Fine = days * 3
+else:
+   Fine = days * 4
+
+print("----Fine Calculation----")
+print("Enter Student Name:",name)
+print("Enter Book Name:",Book)
+print("Enter number of late days:",Days)
+
+output:
+Enter Student Name: Ramya
+Enter Book Name: Basic Pythons
+Enter Number of Late Days: 6
+
+----Library Fine Details----
+Enter Student Name: Ramya
+Enter Book Name: Basic Pythons
+Enter Number of Late Days: 6
+Total Fine: 18

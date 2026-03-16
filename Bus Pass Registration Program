@@ -1,0 +1,30 @@
+# Bus Pass Registration System
+
+name = input("Enter Student Name:")
+college = input("Enter College Name:")
+Distance = float(input("Enter Distance in km:")
+
+# Bus Pass Registration System
+if Distance <= 5:
+   fee = 500
+elif Distance <= 10:
+   fee = 800
+else:
+   fee = 1000
+
+print("----\n Bus Pass Details----")
+print("Student Name:",name)
+print("College Name:",college)
+print("Distance:",distance,km)
+
+output:
+Enter Student Name: Ramya
+Enter College Name: Sathyabama University
+Enter Distance in km: 8
+
+----Bus Pass Details----
+enter student name: Ramya
+Enter College Name: Sathyabama University
+Enter Distance: 8.0
+Bus Pass Fee: Rs.800
+

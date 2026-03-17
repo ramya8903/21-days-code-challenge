@@ -1,0 +1,30 @@
+# Milk Delivery Tracking Program
+
+print("----Milk Delivery Program----")
+
+name = input("Enter Customer Name:")
+liters = float(input("Enter milk quantity(liters:")
+days = int(input("Enter number of days:"))
+
+price_per_liters = 50
+total = liters * days *price_per_liters
+
+#Delivery Details
+print("\n----Delivery Details----")
+print("Name:",name)
+print("Milk per day:",liters,"liters")
+print("Days:",days)
+print("Total Amount:",amount)
+
+Output:
+----Milk Delivery System----
+Enter Customer Name: Ramya
+Enter milk quantity: 2
+Enter number of days: 5
+
+----Delivery Details----
+Name: Ramya
+Milk per day: 2 liters
+days: 5
+Total Amount: $500
+

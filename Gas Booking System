@@ -1,0 +1,36 @@
+# Gas Booking System
+
+name = input("Enter Name:")
+customer Id: input("Enter Customer Id:")
+gas_type = int(input("1.Domestic(900),2.Commercial(1500):")
+qty = input("Enter number of cylinders:")
+
+if choice == 1:
+   total = qty * 900
+   gas = "Domenstic"
+elif choice == 2:
+   total = qty * 1500
+   gas = "commercial"
+else:
+   exit()
+
+print("\n----Gas Details----")
+print("Enter Name:",name)
+print("Enter Customer Id:",customer id)
+print("Enter gas_type:",gas_type)
+print("Cylinders:",qty)
+
+----Gas Booking System----
+Enter Name: Ramya
+Enter Customer Id: 101
+Enter Gas type: 1.Domenstic
+              2.Commercial
+Select Option(1/2): 1
+Enter Nmuber of Cylinders: 1
+
+---- Gas Details----
+Enter Name: Ramya
+Enter Customer Id: 101
+Enter Gas Type: Domenstic
+Cylinders: 1
+Total Amount: 900

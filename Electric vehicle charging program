@@ -1,0 +1,20 @@
+# Electric Vehicle Charging Program
+
+units = float(input("Enter units consumed(kwh):"))
+
+print("1. Fast Charge $12/unit 2. Normal charge $8/unit")
+choice = int(input("choose charging type (1/2):"))
+
+rate = 12 if choice == 1 else 8
+cost = units *rate
+
+print("\nCharging Completed!")
+print("Total Cost: $",cost)
+
+output:
+Enter units consumed(kwh): 20
+1. Fast Charge $12/unit 2. Normal charge $8/unit
+Choose charging type(1/2): 1
+
+Charging Completed!
+Total Cost: $240.0

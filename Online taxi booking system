@@ -1,0 +1,36 @@
+# Online Taxi Bokking System
+
+name = input("Enter Name:")
+distance = float(input("Enter distance(km):")0
+
+print("1. Mini $10/km 2. seden $15/km 3.SUV $20/km")
+choice = int(input("Choose car (1/2/3):"))
+
+# Fare calculation
+if choice == 1:
+    car = "Mini"
+    rate = 10
+elif choice == 2:
+    car = "Seden"
+    rate = 15
+elif choice == 3:
+    car = "SUV"
+    rate = 20
+else:
+    print("Invalid choice")
+    exit()
+
+print("\n---Booking Confirmed---")
+print("Name:",name)
+print("Total Fare: $,fare)
+
+
+output:
+Enter name: Ramya
+Enter distance(km): 12
+1.Mini $10/km 2. Seden $15/km 3. SUV $20/km
+Choose car (1/2/3): 2
+
+----Booking System----
+Name: Ramya
+Total Fare: $180.0

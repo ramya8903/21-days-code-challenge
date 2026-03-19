@@ -1,0 +1,39 @@
+# College Fee Payment System
+
+name = input("Enter Name:")
+roll = input("Enter Roll no:")
+
+tution = float(input("Tuition fee:"))
+hostel = float(input("Hostel Fee:"))
+bus = float(input("Bus Fee:"))
+
+total = tuition + hostel + bus
+paid = float(input("Amount Paid:"))
+
+balance = total - paid
+
+print("/n---Fee Details---")
+print("Name:",name)
+print("Roll NO:",roll)
+print("Total Fee:",total)
+print("Paid:",paid)
+
+if balance > 0
+   print("Balance:",balance)
+else:
+   print("Fee Paid Successfully")
+
+output:
+Enter Name: Ramya
+Enter Roll No: 102
+tuition Fee: 40000
+Hostel Fee: 15000
+Bus Fee: 5000
+Amount Paid: 60000
+
+---Fee Details---
+Name: Ramya
+Roll No: 102
+Total Fee: 60000
+Paid: 60000
+Fee Paid Successfully

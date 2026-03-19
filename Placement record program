@@ -1,0 +1,30 @@
+# Placement Record System
+
+name = input("Enter Student Name:")
+roll = input("Enter Roll No:")
+company = input("Enter Company Name:")
+package = float(input("Enter Package (LPA):"))
+
+print("\n---Placement Details---")
+print("Name:",name)
+print("Roll No:",roll)
+print("Company:",company)
+print("Package:",package)
+
+if package >= 5:
+   print("Status:Selected")
+else:
+   print("Status:Not Selected")
+
+output:
+Enter Student Name: Ramya
+Enter Roll No: 101
+Enter Company Name: TCS
+Enter Package (LPA): 6
+
+---Placement Details---
+Name: Ramya
+Roll No: 101
+Company: Tcs
+Package: 6 LPA
+Status: Selected

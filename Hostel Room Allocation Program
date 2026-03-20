@@ -1,0 +1,24 @@
+# Hostel Room Allocation Program
+
+rroms = {101:"Empty,102:"Empty",103:"Empty"}
+
+room_no = int(input("Enter room number:"))
+name = input("Enter student name:")
+
+if room_no in rooms:
+   if rooms[room_no] == "Empty":
+      rooms[room_no = name
+      print("Room allocated to",name)
+   else:
+      print("Room already occupied")
+else: 
+     print("Invalid room number")
+
+print("Room Details:",rooms)
+
+
+output:
+Enter room number: 101
+Enter student name: Ramya
+Room allocated to Ramya
+Room Details:{101:'Ramya',102:'Empty',103:'Empty'}

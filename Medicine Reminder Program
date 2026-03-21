@@ -1,0 +1,21 @@
+medicine_name = input("Enter medicine name:")
+time = input("Enter reminder time:")
+patient_name = input("Enter patient name:")
+
+print("\n---Medicine Reminder---")
+print("Patient Name:",paient_name)
+print("Medicine Name:",medicine_name)
+print("Reminder Time:",time)
+print("Take your medicine on time!")
+
+
+output:
+Enter medicine name: Paracetamol
+Enter reminder time: 8.00 PM
+Enter patient name: Ramya
+
+---Medicine Reminder---
+Patient Name: Ramya
+Medicine Name: Paracetamol
+Reminder Time: 8.00 PM
+Take your medicine on time!

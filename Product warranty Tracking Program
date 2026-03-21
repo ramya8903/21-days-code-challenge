@@ -1,0 +1,20 @@
+product_name = input("Enter product name:")
+purchase_data = input("Enter purchase data(DD/MM/YYYY)
+warranty_years = int(input("Enter warranty period in years:"))
+
+print("\n---Product Warranty Details---")
+print("Product Name:",product_name)
+print("Purchase Date:",purchase_date)
+print("Warranty Period:",warranty_years,"years")
+print("Warranty status recorded successfully")
+
+output:
+Enter product name: Laptop
+Enter purchase date (DD/MM/YYYY): 12/05/2024
+Enter warranty period in years: 2
+
+---Product Warranty Details---
+Product Name: Laptop
+Purchase Date: 12/05/2024
+Warranty period: 2 years
+Warranty status recorded successfully

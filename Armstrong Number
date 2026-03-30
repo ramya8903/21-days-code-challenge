@@ -1,0 +1,20 @@
+num = int(input("Enter a number:"))
+temp = num
+sum = 0
+
+# Count number of degits
+n = len(str(num))
+
+While temp > 0:
+   degit = temp % 10
+   sum += degit ** n
+   temp //= 10
+
+if num == sum:
+   print("Armstrong number")
+else:
+   print("Not an Armstrong number")
+
+output:
+Enter a number: 153
+Armstrong number

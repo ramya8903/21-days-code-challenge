@@ -1,0 +1,28 @@
+# Traffic Fine Management System
+
+fines = {}
+
+while True:
+    print("\n1.Add Fine  2.View  3.Pay  4.Exit")
+    char = input("Enter choice:")
+if char == '1':
+    v = input("Vehicle No:")
+    fine = int(input("Fine Amount:"))
+    fines[v] = fine
+elif char == '2':
+     print(fines)
+elif char == '3':
+     v = input("Vehicle No to pay:")
+     fines.pop(v,"No record found")
+elif char == '4':
+     break
+else:
+     print("Invalid choice")
+
+output:
+1.Add Fine
+Vehicle No: TN01
+Fine Amount: 500
+
+2.View
+{'TN01':500}

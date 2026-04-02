@@ -1,0 +1,16 @@
+# Login System
+
+username = input("Enter username:")
+password = input("Enter password:")
+
+if username == "admin" & password == "1234":
+  print("Login Successful!")
+else:
+  print("Invalid Username or Password")
+
+output:
+Enter username: admin
+Enter password: 1234
+Login Successful!
+
+

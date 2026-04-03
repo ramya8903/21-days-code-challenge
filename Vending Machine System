@@ -1,0 +1,17 @@
+# Vending Machine System
+
+print("1. Chips Rs20 2. Chocolate Rs30 3. Drink Rs25")
+
+choice = int(input("Enter your choice:"))
+money = int(input("Enter money:"))
+
+prices = {1.20, 2.30, 3.25}
+
+if choice in prices:
+   print("Item dispensed")
+elif money >= prices[choice]:
+    print("change:",money-prices[choice])
+else:
+    print("Not enough money")
+else:
+    print("Invalid choice")
